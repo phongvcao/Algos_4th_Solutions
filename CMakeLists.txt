@@ -1,4 +1,17 @@
 cmake_minimum_required( VERSION 3.13 )
+
+# #
+# # This must go before project()
+# #
+# set(CMAKE_C_COMPILER "gcc")
+# set(CMAKE_C_FLAGS_DEBUG "-g")
+# set(CMAKE_CC_FLAGS "-fno-inline")
+#
+# set(CMAKE_CXX_COMPILER "g++")
+# set(CMAKE_CXX_FLAGS_DEBUG "-g")
+# set(CMAKE_CXX_FLAGS "-fno-inline")
+#
+
 project( Algorithms_4th_Edition )
 
 set( CMAKE_CXX_STANDARD 17 )
